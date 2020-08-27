@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:lightgrey;
+        }
+
+        main {
+            border-width: 10px;
+            border-color:cornflowerblue;
+            border-style:outset;
+        }
+
+        section {
+            border-width: 5px;
+            border-color: cornflowerblue;
+            border-style: groove;
+            margin-top: 10px;
+        }
+
+        address {
+            line-height: 20px;
+        }
+
+        .centered {
+            position: relative;
+            text-align: center;
+        }
+
+        .no-margin {
+            margin: 0;
+        }
+
+        .section-title {
+            padding-left: 10px;
+        }
+
+        #social-networks {
+            text-align: center;
+            display: inline-flex;
+            line-height: 50px;
+        }
+
+        #github {
+            float:left;
+            padding-right: 10%;
+        }
+
+        #linkedin {
+            float: right;
+            padding-left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="centered">
+            <h1>Pablo Andrade</h1>
+            <img src="../assets/image.png" width="150" height="150">
+            <address>
+                <h4 class="no-margin">Street 101, MyState ST 667895</h4>
+                <h4 class="no-margin">123-456-7890</h4>
+            </address>
+        </header>
+
+        <nav class="centered">
+            <div id="social-networks">
+                <a href="https://github.com/pabloemilio97" id="github">Github</a>
+                <a href="https://www.linkedin.com/in/pablo-andrade-602525a5/" id="linkedin">LinkedIn</a>
+            </div>
+        </nav>
+    </main>
+
+    <section>
+        <h3 class="section-title">Objective</h3>
+        <p style="padding-left: 3%;">
+            To <span style="color: green;">successfully</span> complete the first lab of this course!
+        </p>
+    </section>
+
+    <section>
+        <h3 class="section-title">Experience</h3>
+        <ul>
+            <li>Junior Software Engineer from December 2018 to January 2020 at Ecaresoft</li>
+            <li>Software Engineer Intern from April 2020 to this date at Vitau</li>
+        </ul>
+    </section>
+    
+    <footer style="padding-top: 30px;">This lab was made by Pablo Andrade</footer>
+
+</body>
+</html>
